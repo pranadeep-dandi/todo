@@ -1,0 +1,54 @@
+
+.todo-container{
+   text-align: center;
+   padding: 100px;
+  
+}
+.add-task{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.add-task input{
+    flex:1;
+    padding: 10px;
+    font-size: 16;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.add-task button{
+    padding: 10px 15px;
+    color: green;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color:gray;
+}
+.task-list{
+    list-style-type:none ;
+    padding:0 ;
+}
+.task-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color:aliceblue;
+
+
+}
+ul{
+    font-size:26;
+    font-style:italic;
+    padding: 10px 20px;
+}
+ul button{
+    padding: 5px 10px;
+    color:red;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
